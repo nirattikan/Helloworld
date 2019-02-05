@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Index from '../pages/index'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-         <h2>Hello Nirattikan</h2>
-        </header>
+        <Index/>
       </div>
     );
   }
