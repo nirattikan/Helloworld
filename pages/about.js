@@ -1,13 +1,9 @@
+import Layout from '../components/Layout'
 
-import Link from 'next/link'
-
-const Index = () => (
-  <div>
-    <Link href="/">
-      <a>Index Page</a>
-    </Link>
+const About = () => (
+  <Layout>
     <h1>About</h1>
-  </div>
+  </Layout>
 )
 
-export default Index
+export default About
